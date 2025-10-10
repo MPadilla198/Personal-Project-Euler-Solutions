@@ -2,11 +2,9 @@
 
 This is a compilation of all of my solutions to the problems presented in the [Project Euler Problem Archive](https://projecteuler.net/archives) using multiple languages, including Golang, Python, C/C++, and Typescript.
 
-:white_check_mark:
-
 | Problem | Golang | Python | C | C++ | Typescript |
 | ------- | ------ | ------ | - | --- | ---------- | 
-| [Multiples of 3 or 5](https://projecteuler.net/problem=1) |  |  |  |  |  |
+| [Multiples of 3 or 5](https://projecteuler.net/problem=1) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Even Fibonacci Numbers](https://projecteuler.net/problem=2) |  |  |  |  |  |
 | [Largest Prime Factor](https://projecteuler.net/problem=3) |  |  |  |  |  |
 | [Largest Palindrome Product](https://projecteuler.net/problem=4) |  |  |  |  |  |
