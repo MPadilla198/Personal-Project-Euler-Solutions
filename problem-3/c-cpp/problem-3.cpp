@@ -14,9 +14,9 @@ int main()
     bool *prime_sieve = newPrimeSieve(composite_sqrt);
 
     // Iterate sieve in reverse and mod the given composite until it equals 0
-    for (int j = composite_sqrt - 1; j > 0; j--)
+    for (long int j = composite_sqrt - 1; j > 0; j--)
     {
-        if (prime_sieve[j] && given_composite % ((long int) j) == 0)
+        if (prime_sieve[j] && given_composite % j == 0)
         {
             cout << j << endl;
             break;
