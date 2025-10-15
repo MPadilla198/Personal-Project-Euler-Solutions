@@ -35,11 +35,11 @@ From the project root directory, run
 go run {file-path}
 ```
 
-For example, to run problem #1 from the root directory, run
+For example, to run problem 1 from the root directory, run
 ```
 go run problem-1/problem-1.go
 ```
-__NOTE:__ This __MUST__ be run from the root directory as the _go run_ command used relies on relative paths.
+__NOTE:__ This __MUST__ be run from the root directory as the _go run_ command used relies on relative paths (when using relative paths in _mod.go_).
 
 ### Python
 
@@ -48,7 +48,7 @@ From the project root directory, run
 python3 {problem-directory}/{file-name}.py
 ```
 
-For example, to run project #3, run
+For example, to run problem 3, run
 ```
 python3 problem-3/problem-3.py
 ```
@@ -61,7 +61,7 @@ From the project root directory, run
 ./run-c.sh {problem-folder}
 ```
 
-For example, to run project #1, run
+For example, to run problem 1, run
 ```
 ./run-c.sh problem-1
 ```
@@ -76,7 +76,7 @@ From the project root directory, run
 ./run-cpp.sh {problem-folder}
 ```
 
-For example, to run project #1, run
+For example, to run problem 1, run
 ```
 ./run-cpp.sh problem-1
 ```
@@ -91,7 +91,7 @@ Run
 tsx {file-path}
 ```
 
-For example, to run problem #1 from the root directory, run
+For example, to run problem 1 from the root directory, run
 ```
 tsx problem-1/problem-1.ts
 ```
@@ -102,7 +102,7 @@ Run
 java {file-path}
 ```
 
-For example, to run problem #1 from the root directory, run
+For example, to run problem 1 from the root directory, run
 ```
 java problem-1/problem1.java
 ```
