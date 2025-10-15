@@ -9,7 +9,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | [Largest Prime Factor](https://projecteuler.net/problem=3) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Largest Palindrome Product](https://projecteuler.net/problem=4) |  |  |  |  |  |  |
 | [Smallest Multiple](https://projecteuler.net/problem=5) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Sum Square Difference](https://projecteuler.net/problem=6) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |
+| [Sum Square Difference](https://projecteuler.net/problem=6) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [10 001st Prime](https://projecteuler.net/problem=7) |  |  |  |  |  |  |
 | [Largest Product in a Series](https://projecteuler.net/problem=8) |  |  |  |  |  |  |
 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) |  |  |  |  |  |  |
