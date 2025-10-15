@@ -6,7 +6,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | ------- | ------ | ------ | - | --- | ---------- | ---- |
 | [Multiples of 3 or 5](https://projecteuler.net/problem=1) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Even Fibonacci Numbers](https://projecteuler.net/problem=2) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Largest Prime Factor](https://projecteuler.net/problem=3) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |
+| [Largest Prime Factor](https://projecteuler.net/problem=3) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Largest Palindrome Product](https://projecteuler.net/problem=4) |  |  |  |  |  |  |
 | [Smallest Multiple](https://projecteuler.net/problem=5) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Sum Square Difference](https://projecteuler.net/problem=6) |  |  |  |  |  |  |
