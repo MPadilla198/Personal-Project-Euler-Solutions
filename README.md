@@ -24,3 +24,82 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 18 | [Maximum Path Sum I](https://projecteuler.net/problem=18) |  |  |  |  |  |  |
 | 19 | [Counting Sundays](https://projecteuler.net/problem=19) |  |  |  |  |  |  |
 | 20 | [Factorial Digit Sum](https://projecteuler.net/problem=20) |  |  |  |  |  |  |
+
+## Instructions for running each language
+
+These instructions assume that you have installed each language onto your machine.
+
+### Golang
+Run
+```
+go run {file-path}
+```
+
+For example, to run problem #1 from the root directory, run
+```
+go run problem-1/problem-1.go
+```
+
+### Python
+
+From the project root directory, run 
+```
+python3 {problem-directory}/{file-name}.py
+```
+
+For example, to run project #3, run
+```
+python3 problem-3/problem-3.py
+```
+
+__NOTE:__ This __MUST__ be run from the root directory as the import method used relies on relative paths.
+
+### C
+From the project root directory, run
+```
+./run-c.sh {problem-folder}
+```
+
+For example, to run project #1, run
+```
+./run-c.sh problem-1
+```
+
+The script _run-c.sh_ compiles the source code, runs the executable, then deletes the compiled executable.
+
+### C++
+From the project root directory, run
+```
+./run-cpp.sh {problem-folder}
+```
+
+For example, to run project #1, run
+```
+./run-cpp.sh problem-1
+```
+
+The script _run-cpp.sh_ compiles the source code, runs the executable, then deletes the compiled executable.
+
+### Typescript
+Run
+```
+tsx {file-path}
+```
+
+For example, to run problem #1 from the root directory, run
+```
+tsx problem-1/problem-1.ts
+```
+
+### Java
+Run
+```
+java {file-path}
+```
+
+For example, to run problem #1 from the root directory, run
+```
+java problem-1/problem1.java
+```
+
+__NOTE:__ The hyphen is removed from file name of the java file. This is because it causes conflicts with the Java class name requirements.
