@@ -21,7 +21,6 @@ func main() {
 	// Set all composite numbered indexes in the sieve to false
 	i := 2
 	for i < composite_sqrt {
-		// Set all
 		for index := i * i; index < composite_sqrt; index += i {
 			prime_sieve[index] = false
 		}
