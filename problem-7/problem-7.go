@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// This size is a rough estimate for how high the result might be
 	size := 400000
 
 	// Create prime sieve

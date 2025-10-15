@@ -1,1 +1,1 @@
-from .prime_sieve import newPrimeSieve
+from .python.prime_sieve import newPrimeSieve

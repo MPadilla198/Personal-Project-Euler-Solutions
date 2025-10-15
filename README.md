@@ -1,6 +1,6 @@
 # Personal-Project-Euler-Solutions
 
-This is a compilation of all of my solutions to the problems presented in the [Project Euler Problem Archive](https://projecteuler.net/archives) using multiple languages, including Golang, Python, C/C++, and Typescript.
+This is a compilation of all of my solutions to the problems presented in the [Project Euler Problem Archive](https://projecteuler.net/archives) using multiple languages, including Golang, Python, C/C++, Typescript and Java.
 
 | __No.__ | __Problem__ | __Golang__ | __Python__ | __C__ | __C++__ | __Typescript__ | __Java__ |
 | ------- | ----------- | ---------- | ---------- | ----- | ------- | -------------- | -------- |
@@ -10,7 +10,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 4 | [Largest Palindrome Product](https://projecteuler.net/problem=4) |  |  |  |  |  |  |
 | 5 | [Smallest Multiple](https://projecteuler.net/problem=5) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 6 | [Sum Square Difference](https://projecteuler.net/problem=6) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: |  |  |  |  |  |
+| 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: |  |  |  |  |
 | 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) |  |  |  |  |  |  |
 | 9 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) |  |  |  |  |  |  |
 | 10 | [Summation of Primes](https://projecteuler.net/problem=10) |  |  |  |  |  |  |
@@ -67,6 +67,8 @@ For example, to run project #1, run
 
 The script _run-c.sh_ compiles the source code, runs the executable, then deletes the compiled executable.
 
+__NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
+
 ### C++
 From the project root directory, run
 ```
@@ -79,6 +81,8 @@ For example, to run project #1, run
 ```
 
 The script _run-cpp.sh_ compiles the source code, runs the executable, then deletes the compiled executable.
+
+__NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
 
 ### Typescript
 Run
@@ -102,4 +106,4 @@ For example, to run problem #1 from the root directory, run
 java problem-1/problem1.java
 ```
 
-__NOTE:__ The hyphen is removed from file name of the java file. This is because it causes conflicts with the Java class name requirements.
+__NOTE:__ The hyphen is removed from file name of the java file, because it causes conflicts with the Java class name requirements.
