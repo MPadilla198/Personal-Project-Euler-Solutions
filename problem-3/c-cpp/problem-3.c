@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../../utils/c/prime_sieve.c"
 
 int main()
 {
@@ -6,28 +7,7 @@ int main()
     const int composite_sqrt = 775147;
 
     // Create prime sieve
-    unsigned char prime_sieve[775147];
-
-    for (int i = 0; i < composite_sqrt; i++) {
-        prime_sieve[i] = 1;
-    }
-
-    // Set all composite numbered indexes in the sieve to false
-    int i = 2;
-    while (i < composite_sqrt)
-    {
-        for (int index = i * i; index > 0 && index < composite_sqrt; index += i)
-        {
-            prime_sieve[index] = 0;
-        }
-
-        // Update i to the next prime exposed by the sieve
-        i++;
-        while (i < composite_sqrt && prime_sieve[i] == 0)
-        {
-            i++;
-        }
-    }
+    unsigned char* prime_sieve = getPrimeSieve(composite_sqrt);
 
     // Iterate sieve in reverse and mod the given composite until it equals 0
     for (int j = composite_sqrt - 1; j > 0; j--)
@@ -38,6 +18,8 @@ int main()
             break;
         }
     }
+
+    free(prime_sieve);
 
     return 0;
 }
