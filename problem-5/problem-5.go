@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"C"
+	"fmt"
+)
 
 func main() {
 	primes := [...]int{2, 3, 5, 7, 11, 13, 17, 19}
