@@ -10,7 +10,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 4 | [Largest Palindrome Product](https://projecteuler.net/problem=4) |  |  |  |  |  |  |
 | 5 | [Smallest Multiple](https://projecteuler.net/problem=5) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 6 | [Sum Square Difference](https://projecteuler.net/problem=6) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: |  |  |  |  |
+| 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |  |
 | 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) |  |  |  |  |  |  |
 | 9 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) |  |  |  |  |  |  |
 | 10 | [Summation of Primes](https://projecteuler.net/problem=10) |  |  |  |  |  |  |
@@ -30,7 +30,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 These instructions assume that you have installed each language onto your machine.
 
 ### Golang
-Run
+From the project root directory, run 
 ```
 go run {file-path}
 ```
@@ -39,6 +39,7 @@ For example, to run problem #1 from the root directory, run
 ```
 go run problem-1/problem-1.go
 ```
+__NOTE:__ This __MUST__ be run from the root directory as the _go run_ command used relies on relative paths.
 
 ### Python
 
