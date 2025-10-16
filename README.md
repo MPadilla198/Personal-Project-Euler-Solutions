@@ -10,7 +10,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 4 | [Largest Palindrome Product](https://projecteuler.net/problem=4) |  |  |  |  |  |  |
 | 5 | [Smallest Multiple](https://projecteuler.net/problem=5) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 6 | [Sum Square Difference](https://projecteuler.net/problem=6) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |
+| 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) |  |  |  |  |  |  |
 | 9 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) |  |  |  |  |  |  |
 | 10 | [Summation of Primes](https://projecteuler.net/problem=10) |  |  |  |  |  |  |
@@ -104,7 +104,7 @@ java {file-path}
 
 For example, to run problem 1 from the root directory, run
 ```
-java problem-1/problem1.java
+java src/com/github/problem1/problem1.java
 ```
 
 __NOTE:__ The hyphen is removed from file name of the java file, because it causes conflicts with the Java class name requirements.
