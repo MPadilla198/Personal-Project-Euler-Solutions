@@ -1,3 +1,5 @@
+package com.github.problem1;
+
 public class problem1 {
     public static void main(String[] args) {
         // Sum of multiples of 3, using Gauss Summation

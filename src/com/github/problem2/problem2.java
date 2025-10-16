@@ -1,3 +1,5 @@
+package com.github.problem2;
+
 public class problem2 {
     public static void main(String[] args) {
         int a = 1;

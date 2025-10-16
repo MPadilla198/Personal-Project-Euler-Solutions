@@ -1,3 +1,5 @@
+package com.github.problem6;
+
 public class problem6 {
     public static void main(String[] args) {
         long sum_of_squares = 0;
