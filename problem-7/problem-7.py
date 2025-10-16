@@ -11,12 +11,10 @@ size = 400000
 primeSieve = newPrimeSieve(size)
 
 count = 0
-result = 0
 for i in range(2, size):
     if primeSieve[i]:
         count += 1
         if count == 10001:
-            result = i
+            print(i)
             break
 
-print(result)

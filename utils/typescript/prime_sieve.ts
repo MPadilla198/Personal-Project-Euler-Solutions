@@ -9,10 +9,9 @@ export function NewPrimeSieve(size: number): boolean[] {
         }
 
         // Update i to the next prime exposed by the sieve
-        i++
-        while (i < size && !prime_sieve[i]) {
+        do {
             i++
-        }
+        } while (i < size && !prime_sieve[i])
     }
 
     return prime_sieve

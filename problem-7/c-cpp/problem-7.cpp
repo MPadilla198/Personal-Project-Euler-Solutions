@@ -13,18 +13,15 @@ int main()
     bool *prime_sieve = newPrimeSieve(size);
 
     int count = 1;
-    int result = 0;
     for (int i = 2; i < size; i++) {
         if (prime_sieve[i]) {
             count++;
             if (count == 10001) {
-                result = i;
+                cout << i << endl;
                 break;
             }
         }
     }
-
-    cout << result << endl;
 
     delete prime_sieve;
     return 0;
