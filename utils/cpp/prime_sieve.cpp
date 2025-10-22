@@ -9,10 +9,10 @@ bool *newPrimeSieve(int size)
     }
 
     // Set all composite numbered indexes in the sieve to false
-    int i = 2;
+    long int i = 2;
     while (i < size)
     {
-        for (int index = i * i; index > 0 && index < size; index += i)
+        for (long int index = i * i; index > 0 && index < size; index += i)
         {
             prime_sieve[index] = false;
         }
