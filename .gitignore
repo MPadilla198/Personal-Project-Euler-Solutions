@@ -33,3 +33,6 @@ go.work.sum
 # For python
 */__pycache__
 */*/__pycache__
+
+# For Typescript
+node_modules/
