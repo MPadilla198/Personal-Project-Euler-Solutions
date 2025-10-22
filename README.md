@@ -78,7 +78,7 @@ For example, to run problem 1, run
 
 The script _run-c.sh_ compiles the source code, runs the executable, then deletes the compiled executable.
 
-__NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
+__NOTE:__ This __MUST__ be run from the root directory as the _run-c_ script relies on relative paths.
 
 ### C++
 From the project root directory, run
@@ -93,7 +93,7 @@ For example, to run problem 1, run
 
 The script _run-cpp.sh_ compiles the source code, runs the executable, then deletes the compiled executable.
 
-__NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
+__NOTE:__ This __MUST__ be run from the root directory as the _run-cpp_ script relies on relative paths.
 
 ### Typescript
 From the project root directory, run
@@ -105,6 +105,8 @@ For example, to run problem 1, run
 ```
 ./run-ts.sh problem-1
 ```
+
+__NOTE:__ This __MUST__ be run from the root directory as the _run-ts_ script relies on relative paths.
 
 ### Java
 From the project root directory, run
