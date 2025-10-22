@@ -8,7 +8,7 @@ public class problem8 {
 
     @SuppressWarnings("CallToPrintStackTrace")
     public static void main(String[] args) {
-        File file = new File("./src/com/github/problem8/sequence.txt");
+        File file = new File("./com/github/problem8/sequence.txt");
 
         String data;
 

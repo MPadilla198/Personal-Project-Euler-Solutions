@@ -29,6 +29,16 @@ This is a compilation of all of my solutions to the problems presented in the [P
 
 These instructions assume that you have installed each language onto your machine.
 
+Also, if a _permission denied_ response is given when attempting to run any of these scripts, then run
+```
+chmod +x {script-name}
+```
+
+For example, to give execution permission to the golang script, run
+```
+chmod +x run-go.sh
+```
+
 ### Golang
 From the project root directory, run 
 ```
@@ -97,14 +107,16 @@ tsx problem-1/problem-1.ts
 ```
 
 ### Java
-Run
+From the project root directory, run
 ```
-java {file-path}
+./run-java.sh {problem-name}
 ```
 
-For example, to run problem 1 from the root directory, run
+For example, to run problem 1, run
 ```
-java src/com/github/problem1/problem1.java
+./run-java.sh problem1
 ```
+
+__NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
 
 __NOTE:__ The hyphen is removed from file name of the java file, because it causes conflicts with the Java class name requirements.
