@@ -13,7 +13,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 9 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) |  |  |  |  |  |  |
-| 10 | [Summation of Primes](https://projecteuler.net/problem=10) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |
+| 10 | [Summation of Primes](https://projecteuler.net/problem=10) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | 11 | [Largest Product in a Grid](https://projecteuler.net/problem=11) |  |  |  |  |  |  |
 | 12 | [Highly Divisible Triangular Number](https://projecteuler.net/problem=12) |  |  |  |  |  |  |
 | 13 | [Large Sum](https://projecteuler.net/problem=13) |  |  |  |  |  |  |
