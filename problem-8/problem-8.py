@@ -36,7 +36,7 @@ for segment in segments:
                 # Do not check product against max product
                 continue
         else:
-            # Remove base from 
+            # Remove base from product
             product //= int(segment[baseIndex])
 
             product *= digit

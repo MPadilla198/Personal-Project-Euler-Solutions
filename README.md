@@ -11,7 +11,7 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 5 | [Smallest Multiple](https://projecteuler.net/problem=5) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 6 | [Sum Square Difference](https://projecteuler.net/problem=6) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 7 | [10 001st Prime](https://projecteuler.net/problem=7) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |  |
+| 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  |
 | 9 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) |  |  |  |  |  |  |
 | 10 | [Summation of Primes](https://projecteuler.net/problem=10) |  |  |  |  |  |  |
 | 11 | [Largest Product in a Grid](https://projecteuler.net/problem=11) |  |  |  |  |  |  |
