@@ -9,7 +9,7 @@ const prime_sieve: boolean[] = NewPrimeSieve(SIZE)
 let i = 0
 let sum = 0
 for (const val of prime_sieve) {
-    if (i >= 2 && val) {
+    if (val) {
         sum += i
     }
     i++

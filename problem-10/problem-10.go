@@ -16,7 +16,7 @@ func main() {
 
 	// Iterate sieve, adding all primes
 	for i, val := range prime_sieve {
-		if i >= 2 && val {
+		if val {
 			sum += i
 		}
 	}

@@ -10,6 +10,10 @@ func NewPrimeSieve(size int) []bool {
 		prime_sieve[i] = true
 	}
 
+	// 0 and 1 are not primes
+	prime_sieve[0] = false
+	prime_sieve[1] = false
+
 	// Set all composite numbered indexes in the sieve to false
 	i := 2
 	for i < size {

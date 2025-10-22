@@ -12,7 +12,7 @@ prime_sieve = newPrimeSieve(SIZE)
 i = 0
 sum = 0
 for val in prime_sieve:
-    if i >= 2 and val:
+    if val:
         sum += i
     i += 1
 
