@@ -32,14 +32,14 @@ These instructions assume that you have installed each language onto your machin
 ### Golang
 From the project root directory, run 
 ```
-go run {file-path}
+./run-go.sh {problem-name}
 ```
 
 For example, to run problem 1 from the root directory, run
 ```
-go run problem-1/problem-1.go
+./run-go.sh problem-1
 ```
-__NOTE:__ This __MUST__ be run from the root directory as the _go run_ command used relies on relative paths (when using relative paths in _mod.go_).
+__NOTE:__ This __MUST__ be run from the root directory as the _run-go_ script used relies on relative paths.
 
 ### Python
 

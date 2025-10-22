@@ -25,7 +25,7 @@ func charToInt(char byte) int {
 
 func main() {
 	// open file with sequence
-	file, err := os.ReadFile("problem-8/sequence.txt")
+	file, err := os.ReadFile("sequence.txt")
 	check(err)
 
 	// Split on 0 because any segment with a 0 cannot be the largest
