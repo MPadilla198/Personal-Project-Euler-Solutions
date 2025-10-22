@@ -55,20 +55,20 @@ __NOTE:__ This __MUST__ be run from the root directory as the _run-go_ script us
 
 From the project root directory, run 
 ```
-python3 {problem-directory}/{file-name}.py
+./run-py.sh {problem-name}
 ```
 
 For example, to run problem 3, run
 ```
-python3 problem-3/problem-3.py
+./run-py.sh problem-3
 ```
 
-__NOTE:__ This __MUST__ be run from the root directory as the import method used relies on relative paths.
+__NOTE:__ This __MUST__ be run from the root directory as the _run-py_ script relies on relative paths.
 
 ### C
 From the project root directory, run
 ```
-./run-c.sh {problem-folder}
+./run-c.sh {problem-name}
 ```
 
 For example, to run problem 1, run
@@ -83,7 +83,7 @@ __NOTE:__ This __MUST__ be run from the root directory as the script relies on r
 ### C++
 From the project root directory, run
 ```
-./run-cpp.sh {problem-folder}
+./run-cpp.sh {problem-name}
 ```
 
 For example, to run problem 1, run
@@ -117,6 +117,6 @@ For example, to run problem 1, run
 ./run-java.sh problem1
 ```
 
-__NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
+__NOTE:__ This __MUST__ be run from the root directory as the _run-java_ script relies on relative paths.
 
 __NOTE:__ The hyphen is removed from file name of the java file, because it causes conflicts with the Java class name requirements.
