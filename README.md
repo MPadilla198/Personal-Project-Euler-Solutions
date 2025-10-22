@@ -96,14 +96,14 @@ The script _run-cpp.sh_ compiles the source code, runs the executable, then dele
 __NOTE:__ This __MUST__ be run from the root directory as the script relies on relative paths.
 
 ### Typescript
-Run
+From the project root directory, run
 ```
-tsx {file-path}
+./run-ts.sh {problem-name}
 ```
 
-For example, to run problem 1 from the root directory, run
+For example, to run problem 1, run
 ```
-tsx problem-1/problem-1.ts
+./run-ts.sh problem-1
 ```
 
 ### Java
