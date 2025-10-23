@@ -39,11 +39,13 @@ for row in range(SIZE):
             if verticalProduct > maxProduct:
                 maxProduct = verticalProduct
 
+        # Diagonal with negative slope
         if col < TRAVERSE_SIZE and row < TRAVERSE_SIZE:
             diagonalProduct = matrix[row][col] * matrix[row+1][col+1] * matrix[row+2][col+2] * matrix[row+3][col+3]
             if diagonalProduct > maxProduct:
                 maxProduct = diagonalProduct
 
+        # Diagonal with positive slope
         if col >= DISPLACE_SIZE and row < TRAVERSE_SIZE:
             diagonalProduct = matrix[row][col] * matrix[row+1][col-1] * matrix[row+2][col-2] * matrix[row+3][col-3]
             if diagonalProduct > maxProduct:

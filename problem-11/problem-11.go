@@ -43,8 +43,6 @@ func load2DArray() [][]int {
 func main() {
 	matrix := load2DArray()
 
-	// Print2DArray(matrix)
-
 	// We are calculating the 4 adjacent numbers, so TRAVERSE_SIZE reflects the bounds of this traversal
 	const DISPLACE_SIZE = 3
 	const TRAVERSE_SIZE = SIZE - DISPLACE_SIZE
