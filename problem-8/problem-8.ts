@@ -28,7 +28,7 @@ for (const sequence of sequences) {
                 continue
             }
         } else {
-            const baseDigit = parseInt(sequence[baseIndex])
+            const baseDigit = parseInt(sequence[baseIndex]!)
             // Remove base from product
             product /= baseDigit
 
