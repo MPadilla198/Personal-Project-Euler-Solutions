@@ -30,3 +30,17 @@ func NewPrimeSieve(size int) []bool {
 
 	return prime_sieve
 }
+
+func GetPrimesLessThan(size int) []int {
+	primeSieve := NewPrimeSieve(size)
+
+	primes := make([]int, 0)
+
+	for i, isPrime := range primeSieve {
+		if isPrime {
+			primes = append(primes, i)
+		}
+	}
+
+	return primes
+}
