@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 
 	"github.com/MPadilla198/utils"
 )
@@ -20,17 +21,42 @@ func main() {
 
 	nextTriangularNumber := TriangularNumberGenerator()
 
-	for range 20 {
-		fmt.Println(nextTriangularNumber())
-	}
-
-	// Get all primes to reasonable guess, i.e. 100,000,000
-	primes := utils.GetPrimesLessThan(100000000)
-	fmt.Printf("%v\n", primes)
+	// Get all primes to reasonable guess, i.e. 10,000,000
+	primes := utils.GetPrimesLessThan(10000000)
 
 	// for each triangular number
-	//   use primes to find prime factors
-	//   find out to what power these prime numbers are factors
-	//   Use above info to find number of factors
-	//   If number of factors is above 500, print triangular number
+	for {
+		triangularNumber := nextTriangularNumber()
+		triangularNumberSqrt := int(math.Floor(math.Sqrt(float64(triangularNumber))))
+
+		factors := 1
+		//   use primes to find prime factors
+		for i := 0; primes[i] < triangularNumberSqrt; i++ {
+			prime := primes[i]
+
+			// If this prime is a factor of the triangular number then
+			if triangularNumber%prime == 0 {
+				//   find out to what power these prime numbers are factors
+				power := 1
+				factor := prime
+				for triangularNumber%(factor*prime) == 0 {
+					power++
+					factor *= prime
+				}
+				factors *= power + 1
+			}
+
+			// Catch this for sanity check
+			if i == len(primes)-1 {
+				fmt.Println("Not enough primes")
+				return
+			}
+		}
+
+		//   If number of factors is above 500, print triangular number
+		if factors > 500 {
+			fmt.Println(triangularNumber)
+			return
+		}
+	}
 }
