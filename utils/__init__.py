@@ -1,1 +1,1 @@
-from .python.prime_sieve import newPrimeSieve
+from .python.primes import newPrimeSieve, getPrimesLessThan

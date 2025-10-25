@@ -17,3 +17,14 @@ def newPrimeSieve(size):
             i += 1
     
     return prime_sieve
+
+def getPrimesLessThan(size):
+    primeSieve = newPrimeSieve(size)
+
+    primes = []
+
+    for i in range(size):
+        if primeSieve[i]:
+            primes.append(i)
+    
+    return primes
