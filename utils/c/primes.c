@@ -34,10 +34,13 @@ unsigned char *getPrimeSieve(int size)
     return prime_sieve;
 }
 
-int countPrimes(unsigned char *primeSieve, int size) {
+int countPrimes(unsigned char *primeSieve, int size)
+{
     int count = 0;
-    for (int i = 0; i < size; i++) {
-        if (primeSieve[i] != 0) {
+    for (int i = 0; i < size; i++)
+    {
+        if (primeSieve[i] != 0)
+        {
             count++;
         }
     }
@@ -45,17 +48,20 @@ int countPrimes(unsigned char *primeSieve, int size) {
     return count;
 }
 
-long int *getPrimesLessThan(int size) {
+long int *getPrimesLessThan(int size)
+{
     unsigned char *primeSieve = getPrimeSieve(size);
 
     int primesSize = countPrimes(primeSieve, size);
-    
+
     long int *primes = (long int *)malloc(primesSize * sizeof(long int));
     int primesIndex = 0;
 
-    for (long int i = 0; i < size; i++) {
+    for (long int i = 0; i < size; i++)
+    {
         bool isPrime = primeSieve[i] != 0;
-        if (isPrime) {
+        if (isPrime)
+        {
             primes[primesIndex] = i;
             primesIndex++;
         }
