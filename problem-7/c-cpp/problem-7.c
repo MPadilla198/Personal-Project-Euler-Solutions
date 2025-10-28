@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../../utils/c/prime_sieve.c"
+#include "../../utils/c/primes.c"
 
 int main()
 {
