@@ -20,3 +20,19 @@ export function NewPrimeSieve(size: number): boolean[] {
 
     return prime_sieve
 }
+
+export function GetPrimesLessThan(size: number): number[] {
+    let primeSieve = NewPrimeSieve(size)
+
+    let primes: number[] = []
+    
+    let i = 0
+    for (const isPrime of primeSieve) {
+        if (isPrime) {
+            primes.push(i)
+        }
+        i++
+    }
+
+    return primes
+}

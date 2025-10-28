@@ -1,4 +1,4 @@
-import { NewPrimeSieve } from './../utils/typescript/prime_sieve';
+import { NewPrimeSieve } from '../utils/typescript/primes';
 
 const given_composite = 600851475143
 let composite_sqrt = Math.floor(Math.sqrt(given_composite)) + 1

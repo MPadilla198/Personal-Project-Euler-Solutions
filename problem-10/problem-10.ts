@@ -1,4 +1,4 @@
-import { NewPrimeSieve } from './../utils/typescript/prime_sieve';
+import { NewPrimeSieve } from '../utils/typescript/primes';
 
 
 const SIZE = 2000000
