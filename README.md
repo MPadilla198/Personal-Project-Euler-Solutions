@@ -25,6 +25,8 @@ This is a compilation of all of my solutions to the problems presented in the [P
 | 19 | [Counting Sundays](https://projecteuler.net/problem=19) |  |  |  |  |  |  |
 | 20 | [Factorial Digit Sum](https://projecteuler.net/problem=20) |  |  |  |  |  |  |
 
+__NOTE__: An empty box above means that the problem does not have an attempt; the :x: means that the problem has an attempt but is not passing (whether incomplete or producing the incorrect result); the :white_check_mark: means that the problem is complete and producing the correct result.
+
 ## Instructions for running each language
 
 These instructions assume that you have installed each language onto your machine.
