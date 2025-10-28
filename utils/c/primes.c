@@ -11,6 +11,10 @@ unsigned char *getPrimeSieve(int size)
         prime_sieve[i] = 1;
     }
 
+    // 0 and 1 are not primes
+    prime_sieve[0] = 0;
+    prime_sieve[1] = 0;
+
     // Set all composite numbered indexes in the sieve to false
     long int i = 2;
     while (i < size)
@@ -56,6 +60,8 @@ long int *getPrimesLessThan(int size) {
             primesIndex++;
         }
     }
+
+    free(primeSieve);
 
     return primes;
 }
