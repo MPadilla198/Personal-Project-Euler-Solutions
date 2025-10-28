@@ -1,4 +1,4 @@
-import { NewPrimeSieve } from './../utils/typescript/prime_sieve';
+import { NewPrimeSieve } from '../utils/typescript/primes';
 
 // This size is a rough estimate for how high the result might be
 let size = 400000
