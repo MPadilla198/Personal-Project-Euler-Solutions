@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../../utils/cpp/prime_sieve.cpp"
+#include "../../utils/cpp/primes.cpp"
 
 using namespace std;
 
