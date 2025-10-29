@@ -1,6 +1,6 @@
 package com.github.problem7;
 
-import com.github.utils.PrimeSieve;
+import com.github.utils.Primes;
 
 public class problem7 {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class problem7 {
         int size = 400000;
 
         // Create prime sieve
-        boolean[] prime_sieve = PrimeSieve.NewPrimeSieve(size);
+        boolean[] prime_sieve = Primes.NewPrimeSieve(size);
 
         int count = 1;
 

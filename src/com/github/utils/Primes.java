@@ -1,8 +1,9 @@
 package com.github.utils;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
-public class PrimeSieve {
+public class Primes {
     public static boolean[] NewPrimeSieve(int size) {
         // Create prime sieve
         boolean[] prime_sieve = new boolean[size+1];
@@ -28,5 +29,19 @@ public class PrimeSieve {
         }
 
         return prime_sieve;
+    }
+
+    public static ArrayList<Long> GetPrimesLessThan(int size) {
+        boolean[] primeSieve = NewPrimeSieve(size);
+
+        ArrayList<Long> primes = new ArrayList<>(); 
+
+        for (long i = 0; i < size; i++) {
+            if (primeSieve[(int) i]) {
+                primes.add(i);
+            }
+        }
+
+        return primes;
     }
 }
